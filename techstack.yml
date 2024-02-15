@@ -1,0 +1,60 @@
+repo_name: gangadharure/terraform-aws-vpc
+report_id: ece6796182f5ce5b744a7474cdc68a89
+version: 0.1
+repo_type: Public
+timestamp: '2024-02-15T15:15:53+00:00'
+requested_by: semantic-release-bot
+provider: github
+branch: master
+detected_tools_count: 4
+tools:
+- name: Git
+  description: Fast, scalable, distributed revision control system
+  website_url: http://git-scm.com/
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Version Control System
+  image_url: https://img.stackshare.io/service/1046/git.png
+  detection_source_url: https://github.com/gangadharure/terraform-aws-vpc
+  detection_source: Repo Metadata
+- name: GitHub Actions
+  description: Automate your workflow from idea to production
+  website_url: https://github.com/features/actions
+  open_source: false
+  hosted_saas: true
+  category: Build, Test, Deploy
+  sub_category: Continuous Integration
+  image_url: https://img.stackshare.io/service/11563/actions.png
+  detection_source_url: https://github.com/gangadharure/terraform-aws-vpc/blob/master/.github/workflows/lock.yml
+  detection_source: ".github/workflows/lock.yml"
+  last_updated_by: Bryant Biggs
+  last_updated_on: 2022-10-27 18:32:37.000000000 Z
+- name: Terraform
+  description: Describe your complete infrastructure as code and build resources across
+    providers
+  website_url: https://www.terraform.io/
+  license: MPL-2.0
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Server Configuration and Automation
+  image_url: https://img.stackshare.io/service/1276/default_2316907c4199f912e2ed79cbdb99025c9e5e2665.png
+  detection_source_url: https://github.com/gangadharure/terraform-aws-vpc/blob/master/main.tf
+  detection_source: main.tf
+  last_updated_by: Tomasz Charewicz
+  last_updated_on: 2023-04-07 13:32:51.000000000 Z
+- name: Terraform Registry
+  description: Describe your complete infrastructure as code and build resources across
+    providers
+  website_url: https://registry.terraform.io/
+  license: MPL-2.0
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package_manager/49093/default_cdf079d244bded073d455911e6ce679abb1b77ab.png
+  detection_source_url: https://github.com/gangadharure/terraform-aws-vpc/blob/master/main.tf
+  detection_source: main.tf
+  last_updated_by: Tomasz Charewicz
+  last_updated_on: 2023-04-07 13:32:51.000000000 Z
